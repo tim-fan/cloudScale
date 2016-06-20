@@ -119,8 +119,8 @@ double BathroomScale::readStableWeight(){
   return currentWeight;  
 }
 
-//helper functions to call member functions on all digits
 void BathroomScale::init(void){
+  pinMode(LED_BUILTIN, OUTPUT);
   //Serial.println("All digits init");
   for (int i = 0; i < 4; i++){
     _digits[i].initialise();
