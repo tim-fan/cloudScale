@@ -8,15 +8,16 @@
 // WiFi Definitions //
 //////////////////////
 
-const char* ssid = "TimsAndroidAP";
-const char* password = "koikoikoi";
+//add correct ssid and password here:
+const char* ssid = "ssid";
+const char* password = "pwd";
 
 ////////////////
 // Phant Keys //
 ////////////////
 const char PhantHost[] = "data.sparkfun.com";
 const char PublicKey[] = "mKEvnrmWD0iKXbbN76r3";
-const char PrivateKey[] = "kz15pnXZmRUKREEbv0r7";
+const char PrivateKey[] = ""; //add key before using sketch
 
 char terminator = char(0);
 
